@@ -75,7 +75,7 @@ func main() {
 	} else if len(args) == 1 {
 		host = args[0]
 	} else {
-		log.Fatal("usage: char-server [host]")
+		log.Fatal("usage: chat-server [host]")
 	}
 	if err := http.ListenAndServe(host, nil); err != nil {
 		log.Fatal(err)
