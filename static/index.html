@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+        <h1 class="header">Simple Web Chat</h1>
+        <ol class="message-box">
+        </ol>
+        <div class="message-form">
+            <label for="textbox">Ваше сообщение:</label><br />
+            <textarea id="textbox" placeholder="текст сообщения" maxlength="400" rows="4"></textarea>
+            <input id="send-button" type="submit" value="Отправить" />
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
