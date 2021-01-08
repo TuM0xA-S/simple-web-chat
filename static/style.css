@@ -58,6 +58,7 @@ body {
 
 #send-button {
     justify-self: start;
+    width: 25%;
     margin: 5px;
 }
 
